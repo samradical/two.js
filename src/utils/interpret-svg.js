@@ -1066,7 +1066,7 @@ export const read = {
       v.subSelf(rect.centroid);
     });
 
-    applySvgAttributes.call(this, node, path, parentStyles);
+//     applySvgAttributes.call(this, node, path, parentStyles);
 
     path.translation.addSelf(rect.centroid);
 
